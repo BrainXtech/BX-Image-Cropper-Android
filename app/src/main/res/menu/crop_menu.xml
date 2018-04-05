@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_rotate_image"
+        android:icon="@drawable/ic_rotate_right_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/rotate_image"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/done_crop"
+        android:icon="@drawable/check_black"
+        android:orderInCategory="100"
+        android:title="@string/crop_image"
+        app:showAsAction="always" />
+</menu>

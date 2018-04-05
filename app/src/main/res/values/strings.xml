@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PicCropLibrary</string>
+    <string name="crop_image">Crop Image</string>
+    <string name="rotate_image">Rotate image</string>
+</resources>
