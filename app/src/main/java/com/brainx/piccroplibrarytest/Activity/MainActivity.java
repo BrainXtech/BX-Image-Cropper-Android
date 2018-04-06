@@ -5,22 +5,31 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
-import com.brainx.piccroplibrary.PCLCrop;
+import com.brainx.piccroplibrary.BXCrop;
+import com.brainx.piccroplibrary.BXHelpers.BXCropResult;
+import com.brainx.piccroplibrary.BXHelpers.BXPermissionManager;
 import com.brainx.piccroplibrarytest.Helpers.PermissionManager;
 import com.brainx.piccroplibrarytest.R;
+import com.squareup.picasso.Picasso;
+
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_STORAGE = 100;
     private static final int GALLERY_INTENT = 1222;
     private static final int CROP_REQUEST_CODE = 1478;
-    private String imageTypeSet;
 
-    Button cropImageView;
+    private Button selectImageView;
+    private ImageView cropImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setListener() {
-        cropImageView.setOnClickListener(new View.OnClickListener() {
+        selectImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (storagePermission())
@@ -53,7 +62,13 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == Activity.RESULT_OK) {
                 if (data != null) {
                     Uri uri = Uri.parse(data.getData().toString());
-                    cropCameraCaptureImage(uri);
+                    cropImage(uri);
+                }
+            }
+        } else if (requestCode == CROP_REQUEST_CODE) {
+            if (resultCode == BXCropResult.RESULT_OK) {
+                if (data != null) {
+                    Picasso.with(MainActivity.this).load(new File(BXCropResult.getPath(data))).into(cropImageView);
                 }
             }
         }
@@ -61,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void init() {
-        cropImageView = findViewById(R.id.crop_image);
+        selectImageView = findViewById(R.id.select_button);
+        cropImageView = findViewById(R.id.crop_image_view);
     }
 
     private boolean storagePermission() {
@@ -84,9 +100,22 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), GALLERY_INTENT);
     }
 
-    private void cropCameraCaptureImage(Uri uri) {
-        PCLCrop.getInstance().initlization(this).setUri(uri, uri).withAspectRatio(1, 2).crop(CROP_REQUEST_CODE);
+    private void cropImage(Uri uri) {
+        Uri destinationUri = destinationUri();
+        if (destinationUri != null) {
+            BXCrop.getInstance().initlization(this).setUri(uri, destinationUri()).withAspectRatio(1, 2).crop(CROP_REQUEST_CODE);
+        }
+    }
 
+    private Uri destinationUri() {
+        if (PermissionManager.checkStoragePermission(this)) {
+            String root = Environment.getExternalStorageDirectory().toString() + "/BXBrop";
+            String iName = new SimpleDateFormat("yyyyMMddHHmmss'.jpg'").format(new Date());
+            return Uri.fromFile(new File(root, iName));
+
+        } else {
+            return null;
+        }
     }
 
 

@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
     tools:context="com.brainx.piccroplibrarytest.Activity.MainActivity">
 
     <Button
-        android:id="@+id/crop_image"
+        android:id="@+id/select_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Crop Image" />
-</android.support.constraint.ConstraintLayout>
+        android:text="Select Image" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/crop_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+</LinearLayout>

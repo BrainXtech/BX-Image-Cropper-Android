@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BXTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -9,15 +9,15 @@
 
     </style>
 
-    <style name="AppTheme.NoActionBar">
+    <style name="BXTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+    <style name="BXTheme.AppBarOverlay" parent="Base.ThemeOverlay.AppCompat.ActionBar">
 
     </style>
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="BXTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

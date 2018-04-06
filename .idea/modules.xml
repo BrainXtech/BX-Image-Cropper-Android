@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PicCropLibrary.iml" filepath="$PROJECT_DIR$/PicCropLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BX-Image-Cropper-Android.iml" filepath="$PROJECT_DIR$/BX-Image-Cropper-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/piccroplibrary/piccroplibrary.iml" filepath="$PROJECT_DIR$/piccroplibrary/piccroplibrary.iml" />
     </modules>
