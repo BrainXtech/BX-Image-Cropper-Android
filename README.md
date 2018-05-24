@@ -81,6 +81,11 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 ```
 Initial Build
 ```
+#### Version: 1.1
+
+```
+Initial Build
+```
 
 ### Let us know!
 
