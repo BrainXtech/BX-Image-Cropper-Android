@@ -42,7 +42,7 @@ you can customize the UI colors by override the BXTheme
 
 ```
 BXCrop.getInstance()
-    .initlization(this)
+    .initialization(this)
     .setUri(sourceUri,destinationUri)
     .withAspectRatio(1, 2)
     .crop(CROP_REQUEST_CODE);
