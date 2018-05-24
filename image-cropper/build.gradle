@@ -11,7 +11,7 @@ ext {
     libraryDescription = 'image-cropper lib'
     siteUrl = "https://github.com/BrainXtech/kustomer-android-internal"
     gitUrl = "https://github.com/BrainXtech/kustomer-android-internal"
-    libraryVersion = "1.0"
+    libraryVersion = "1.1"
     developerId = "tahir456"
     developerName = "tahir zahoor"
     developerEmail = 'brainxdevelopers@gmail.com'
