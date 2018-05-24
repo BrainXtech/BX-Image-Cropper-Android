@@ -10,102 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a214088-6e98-4f55-9273-74577e36b89e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_brainx_android_image_cropper_1_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-10-12-34-17-788.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-10-12-34-17-788.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-10-12-50-12-648.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-10-12-50-12-648.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-10-12-51-32-158.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-10-12-51-32-158.rawproto" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/.gitignore" afterPath="$PROJECT_DIR$/image-cropper/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/build.gradle" afterPath="$PROJECT_DIR$/image-cropper/build.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/piccroplibrary.iml" afterPath="$PROJECT_DIR$/image-cropper/image-cropper.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/proguard-rules.pro" afterPath="$PROJECT_DIR$/image-cropper/proguard-rules.pro" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/androidTest/java/com/brainx/piccroplibrary/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/image-cropper/src/androidTest/java/com/brainx/piccroplibrary/ExampleInstrumentedTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXActivity/BXCropActivity.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXActivity/BXCropActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXAsyncTask/BXSaveImageTask.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXAsyncTask/BXSaveImageTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXBaseClasses/BaseActivity.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXBaseClasses/BaseActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXCrop.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXCrop.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXConstants.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXCropResult.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXCropResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXFilePath.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXFilePath.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXPermissionManager.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXPermissionManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXRequestConstant.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXRequestConstant.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXUtils.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/anim/fade_in.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/anim/fade_in.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/anim/fade_out.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/anim/fade_out.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/anim/slide_down.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/anim/slide_down.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/anim/slide_up.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/anim/slide_up.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/drawable/check_black.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/drawable/check_black.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/drawable/ic_launcher_background.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/drawable/ic_launcher_background.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/drawable/ic_rotate_right_black_24dp.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/drawable/ic_rotate_right_black_24dp.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/layout/activity_crop.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/layout/activity_crop.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/layout/app_bar.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/layout/app_bar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/menu/crop_menu.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/menu/crop_menu.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/values/colors.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/values/strings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/values/styles.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/main/res/xml/file_paths.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/res/xml/file_paths.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/piccroplibrary/src/test/java/com/brainx/piccroplibrary/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/image-cropper/src/test/java/com/brainx/piccroplibrary/ExampleUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_arch_core_runtime_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_arch_core_runtime_1_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_livedata_core_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_livedata_core_1_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_runtime_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_runtime_1_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_viewmodel_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_viewmodel_1_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_animated_vector_drawable_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_animated_vector_drawable_27_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_appcompat_v7_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_appcompat_v7_27_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_1_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_design_27_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_design_27_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_exifinterface_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_exifinterface_27_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_recyclerview_v7_27_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_recyclerview_v7_27_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_compat_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_compat_27_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_ui_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_ui_27_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_utils_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_utils_27_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_fragment_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_fragment_27_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_media_compat_27_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_media_compat_27_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_27_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_27_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_vector_drawable_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_vector_drawable_27_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_espresso_espresso_core_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_espresso_espresso_core_3_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_rules_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_rules_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_runner_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_runner_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_transition_27_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_transition_27_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_bogdwellers_pinchtozoom_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_bogdwellers_pinchtozoom_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_jakewharton_butterknife_8_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_jakewharton_butterknife_8_8_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_theartofdev_edmodo_android_image_cropper_2_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_theartofdev_edmodo_android_image_cropper_2_6_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -149,17 +54,17 @@
         <entry file="file://$PROJECT_DIR$/image-cropper/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="71" column="3" lean-forward="true" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+            <state relative-caret-position="521">
+              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -240,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BXCrop.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BXCrop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXCrop.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -3636,7 +3541,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527149222880" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527153148638" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3684,7 +3589,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527149222880" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527153148638" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3867,7 +3772,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527149222881" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527153148639" />
       </method>
     </configuration>
     <list size="1">
@@ -3928,7 +3833,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270869" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66019416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -4354,15 +4259,7 @@
     <entry file="file://$PROJECT_DIR$/image-cropper/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="71" column="3" lean-forward="true" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -4370,7 +4267,15 @@
     <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXCrop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -3,18 +3,30 @@
 #### This project aims to provide an ultimate and flexible image cropping experience. Made in [BrainxTech](https://brainxtech.com/)
 
 # Usage
-1) Include the library
+1.Include the library
+
+##### Using  Gradle
 
 ```
-compile 'com.brainx.android:bx-large-image-viewer:1.0'
+Add image-croppe to the dependencies block in your app level build.gradle:
+compile 'com.brainx.android:image-cropper:1.0'
 ```
-Add permissions to manifest
+
+##### Using  Maven
+```
+<dependency> <groupId>com.brainx.android</groupId> <artifactId>image-cropper</artifactId> <version>1.0</version> <type>pom</type> </dependency>
+```
+
+
+ Add permissions to manifest
+
 ```
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 ```
 
-2) Add Activity into your AndroidManifest.xml
+2.Add Activity into your AndroidManifest.xml
 
 ```
 <activity  android:name="com.brainx.piccroplibrary.BXActivity.BXCropActivity"
@@ -24,7 +36,7 @@ Add permissions to manifest
             android:theme="@style/Base.Theme.AppCompat" />
 ```
 
-3) The BXCrop configuration.
+3.The BXCrop configuration.
 
 ```
 BXCrop.getInstance()
@@ -32,9 +44,9 @@ BXCrop.getInstance()
     .setUri(ourceUri,destinationUri)
     .withAspectRatio(1, 2)
     .crop(CROP_REQUEST_CODE);
+```
 
-    ```
-4) Override `onActivityResult` method and handle BXCrop result.
+4.Override `onActivityResult` method and handle BXCrop result.
 
 ```
 @Override
@@ -50,7 +62,8 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
     }
 ```
 
-#Features
+# Features
+
 ```
 1 Built-in BxCropActivity.
 2 Image rotation during cropping.
@@ -62,15 +75,17 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 # Changelog
 
+## Version: 1.0
 
-### Version: 1.0
 ```
   Initial Build
 ```
 
-### Let us know!
+## Let us know!
+
 ```
-We’d be really happy if you sent us links to your projects where you use our component. Just send an email to Library@brainxtech.com And do let us know if you have any questions or suggestion regarding the library.
+We’d be really happy if you sent us links to your projects where you use our component. Just send an email to Library@brainxtech.com And do let us know if you have
+any questions or suggestion regarding the library.
 ```
 
 ## License
