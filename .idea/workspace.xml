@@ -10,7 +10,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a214088-6e98-4f55-9273-74577e36b89e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXPermissionManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXUtils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/APConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/AppUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXPermissionManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXUtils.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/androidTest/java/com/brainx/piccroplibrary/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/image-cropper/src/androidTest/java/com/brainx/imagecroplibrary/ExampleInstrumentedTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXActivity/BXCropActivity.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXActivity/BXCropActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXAsyncTask/BXSaveImageTask.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXAsyncTask/BXSaveImageTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXBaseClasses/BaseActivity.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXBaseClasses/BaseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXCrop.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXCrop.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXConstants.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXConstants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXCropResult.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXCropResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXFilePath.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXFilePath.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXRequestConstant.java" afterPath="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXRequestConstant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image-cropper/src/test/java/com/brainx/piccroplibrary/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/image-cropper/src/test/java/com/brainx/imagecroplibrary/ExampleUnitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/brainx/imagecroplibrary/test/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/brainx/imagecroplibrary/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/com/brainx/imagecroplibrary/test/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/com/brainx/imagecroplibrary/test/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/brainx/imagecroplibrary/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/brainx/imagecroplibrary/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/brainx/piccroplibrarytest/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/brainx/piccroplibrarytest/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Activity/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/PermissionManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/PermissionManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image-cropper/build/generated/source/buildConfig/androidTest/debug/com/brainx/imagecroplibrary/test/BuildConfig.java" afterPath="$PROJECT_DIR$/image-cropper/build/generated/source/buildConfig/androidTest/debug/com/brainx/imagecroplibrary/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image-cropper/build/generated/source/buildConfig/debug/com/brainx/imagecroplibrary/BuildConfig.java" afterPath="$PROJECT_DIR$/image-cropper/build/generated/source/buildConfig/debug/com/brainx/imagecroplibrary/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image-cropper/build/generated/source/buildConfig/release/com/brainx/piccroplibrary/BuildConfig.java" afterPath="$PROJECT_DIR$/image-cropper/build/generated/source/buildConfig/release/com/brainx/piccroplibrary/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image-cropper/build/generated/source/r/androidTest/debug/com/brainx/imagecroplibrary/R.java" afterPath="$PROJECT_DIR$/image-cropper/build/generated/source/r/androidTest/debug/com/brainx/imagecroplibrary/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image-cropper/build/generated/source/r/androidTest/debug/com/brainx/imagecroplibrary/test/R.java" afterPath="$PROJECT_DIR$/image-cropper/build/generated/source/r/androidTest/debug/com/brainx/imagecroplibrary/test/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image-cropper/build/generated/source/r/debug/com/brainx/imagecroplibrary/R.java" afterPath="$PROJECT_DIR$/image-cropper/build/generated/source/r/debug/com/brainx/imagecroplibrary/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image-cropper/build/generated/source/r/release/com/brainx/piccroplibrary/R.java" afterPath="$PROJECT_DIR$/image-cropper/build/generated/source/r/release/com/brainx/piccroplibrary/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image-cropper/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/image-cropper/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image-cropper/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/image-cropper/src/main/AndroidManifest.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,25 +96,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-cropper/build.gradle">
+      <file leaf-file-name="BXUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="338">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <first_editor relative-caret-position="-797">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding>
-                  <marker date="1527160193503" expanded="true" signature="497:539" ph="/.../" />
-                  <marker date="1527160193503" expanded="true" signature="569:595" ph="/.../" />
+                  <marker date="1527166299893" expanded="true" signature="497:539" ph="/.../" />
+                  <marker date="1527166299893" expanded="true" signature="569:595" ph="/.../" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -76,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            <state relative-caret-position="360">
+              <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -89,76 +135,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="values.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/74dfa6da5e54ec482fa6d289f274ffa1/res/values/values.xml">
+      <file leaf-file-name="BXRequestConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXRequestConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="590" column="17" lean-forward="false" selection-start-line="590" selection-start-column="17" selection-end-line="590" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="70" column="80" lean-forward="false" selection-start-line="70" selection-start-column="80" selection-end-line="70" selection-end-column="80" />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BXCropResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXCropResult.java">
+        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXCropResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
               <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="BXConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+            <state relative-caret-position="144">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXBaseClasses/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BXPermissionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXPermissionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BXFilePath.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXFilePath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BXCrop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXCrop.java">
+        <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXCrop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,11 +216,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cropImage</find>
-      <find>cropImage()</find>
-      <find>destinationUri</find>
-      <find>sourceUri</find>
-      <find>storagePermission</find>
       <find>selectedFilePath</find>
       <find>getAuthority</find>
       <find>P</find>
@@ -204,6 +241,11 @@
       <find>a</find>
       <find>ap</find>
       <find>api</find>
+      <find>FileProvider.getUriForFile</find>
+      <find>FileProvider.getUriForFil</find>
+      <find>FileProvider.</find>
+      <find>FileProvider</find>
+      <find>uri</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/image-cropper/build/outputs</dir>
@@ -3180,13 +3222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrary/PCLHelpers/PCLUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrary/BaseClasses/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_crop.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrary/PCLHelpers/PCLPermissionManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrary/PCLActivity/PCLCropActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrary/PCLActivity/PCLMainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/PCLActivity/PCLMainActivity.java" />
         <option value="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/BaseClasses/BaseActivity.java" />
         <option value="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/PCLActivity/PCLActivity/PCLCropActivity.java" />
         <option value="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/PCLActivity/PCLActivity/PCLMainActivity.java" />
@@ -3201,8 +3236,6 @@
         <option value="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/PCLHelpers/PCLPermissionManager.java" />
         <option value="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/PCLHelpers/PCLUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/APConstants.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/AppUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/PermissionManager.java" />
         <option value="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/PCLAsyncTask/PCLSaveImageTask.java" />
         <option value="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/PCLCrop.java" />
         <option value="$PROJECT_DIR$/piccroplibrary/src/main/java/com/brainx/piccroplibrary/PCLHelpers/PCLCropResult.java" />
@@ -3226,11 +3259,20 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/image-cropper/build.gradle" />
         <option value="$PROJECT_DIR$/image-cropper/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/AppUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/PermissionManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXRequestConstant.java" />
+        <option value="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXUtils.java" />
+        <option value="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXPermissionManager.java" />
+        <option value="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXConstants.java" />
+        <option value="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXBaseClasses/BaseActivity.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXCrop.java" />
+        <option value="$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXCrop.java" />
       </list>
     </option>
   </component>
@@ -3328,8 +3370,74 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="piccroplibrary" />
+              <option name="myItemId" value="imagecroplibrary" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BX-Image-Cropper-Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image-cropper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imagecroplibrary" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BXHelpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BX-Image-Cropper-Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image-cropper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imagecroplibrary" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BXBaseClasses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BX-Image-Cropper-Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image-cropper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imagecroplibrary" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BXActivity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3350,6 +3458,64 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BX-Image-Cropper-Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BX-Image-Cropper-Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piccroplibrarytest" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BX-Image-Cropper-Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piccroplibrarytest" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3466,7 +3632,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ToolWindowDocumentation.ShowToolbar" value="false" />
-    <property name="device.picker.selection" value="LS1524612249" />
+    <property name="device.picker.selection" value="8BG7N16315004516" />
     <property name="DEBUGGABLE_DEVICE" value="lge-nexus_5x-0097d3f71d679030" />
     <property name="DEBUGGABLE_PROCESS" value="com.brainx.piccroplibrary" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -3581,7 +3747,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527160203644" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527166687400" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3629,7 +3795,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527160203645" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527166687400" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3812,7 +3978,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527160203648" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527166687401" />
       </method>
     </configuration>
     <list size="1">
@@ -3863,29 +4029,30 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.6278317" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6278317" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37211156" sideWeight="0.51941746" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.5059856" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66019416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36084142" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66019416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.49720672" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.49401435" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12210695" sideWeight="0.48058254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34557062" sideWeight="0.48058254" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36084142" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37211156" sideWeight="0.512945" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3893,7 +4060,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="165" y="96" width="1101" height="572" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3941,59 +4107,45 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXActivity/BXCropActivity.java</url>
+          <url>file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXActivity/BXCropActivity.java</url>
           <line>176</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXAsyncTask/BXSaveImageTask.java</url>
+          <url>file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXAsyncTask/BXSaveImageTask.java</url>
           <line>32</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXCropResult.java</url>
+          <url>file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXCropResult.java</url>
           <line>24</line>
           <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Activity/MainActivity.java</url>
-          <line>63</line>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Activity/MainActivity.java</url>
-          <line>69</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="54" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-27/android.jar!/java/text/SimpleDateFormat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -4005,13 +4157,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/PCLFilePath.java" />
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXRequestConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-27/android.jar!/android/os/AsyncTask.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -4026,45 +4171,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/PermissionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXPermissionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-27/android.jar!/android/graphics/Bitmap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="82" column="25" lean-forward="false" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/APConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/AppUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -4109,13 +4219,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXBaseClasses/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -4123,13 +4226,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXAsyncTask/BXSaveImageTask.java">
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXAsyncTask/BXSaveImageTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1523009654920" expanded="true" signature="1762:1801" ph="{...}" />
+            <marker date="1527166687363" expanded="true" signature="1764:1803" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -4144,41 +4247,6 @@
     <entry file="file://$PROJECT_DIR$/piccroplibrary/build/outputs/aar/piccroplibrary-debug.aar_FILES/AndroidManifest.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pom1.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pom.xml" />
-    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-27/android.jar!/android/net/Uri.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXFilePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="148" column="53" lean-forward="false" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXActivity/BXCropActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="33" />
-          <folding>
-            <element signature="e#1195#1214#0" expanded="false" />
-            <element signature="e#1531#1549#0" expanded="false" />
-            <element signature="method#onCreate#0;class#BXCropActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#BXCropActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#BXCropActivity#0" expanded="false" />
-            <element signature="method#finish#0;class#BXCropActivity#0" expanded="false" />
-            <element signature="method#onRequestPermissionsResult#0;class#BXCropActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#BXCropActivity#0" expanded="false" />
-            <element signature="e#3251#3271#0" expanded="false" />
-            <element signature="e#3388#3405#0" expanded="false" />
-            <element signature="e#3526#3549#0" expanded="false" />
-            <element signature="e#5657#5674#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pom.xml" />
     <entry file="file://$PROJECT_DIR$/piccroplibrary/pom.xml" />
     <entry file="file://$PROJECT_DIR$/image-cropper/proguard-rules.pro">
@@ -4192,6 +4260,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4241,39 +4310,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXHelpers/BXCropResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="70" column="80" lean-forward="false" selection-start-line="70" selection-start-column="80" selection-end-line="70" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image-cropper/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/piccroplibrary/BXCrop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4288,7 +4329,7 @@
     <entry file="file://$PROJECT_DIR$/image-cropper/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -4301,15 +4342,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-27/android.jar!/android/net/Uri.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="725">
+          <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding>
+            <element signature="e#1953#1954#0" expanded="true" />
+            <element signature="e#2004#2005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXActivity/BXCropActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="129" column="26" lean-forward="false" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+          <folding>
+            <element signature="method#onCreate#0;class#BXCropActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#BXCropActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#BXCropActivity#0" expanded="false" />
+            <element signature="method#finish#0;class#BXCropActivity#0" expanded="false" />
+            <element signature="method#onRequestPermissionsResult#0;class#BXCropActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#BXCropActivity#0" expanded="false" />
+            <element signature="e#5677#5694#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/AppUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="49" column="15" lean-forward="false" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/build/generated/source/buildConfig/debug/com/brainx/imagecroplibrary/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/APConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Helpers/PermissionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brainx/piccroplibrarytest/Activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="35" column="3" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#779#798#0" expanded="false" />
+            <element signature="e#1054#1072#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#2269#2286#0" expanded="false" />
+            <element signature="e#2587#2610#0" expanded="false" />
+            <element signature="method#init#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#2786#2809#0" expanded="false" />
+            <element signature="method#storagePermission#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#openGallery#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#cropImage#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#destinationUri#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXRequestConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXPermissionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXFilePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXCropResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXBaseClasses/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -4317,22 +4476,49 @@
         <state relative-caret-position="521">
           <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
-            <marker date="1527160193503" expanded="true" signature="497:539" ph="/.../" />
-            <marker date="1527160193503" expanded="true" signature="569:595" ph="/.../" />
+            <marker date="1527166299893" expanded="true" signature="497:539" ph="/.../" />
+            <marker date="1527166299893" expanded="true" signature="569:595" ph="/.../" />
           </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <first_editor relative-caret-position="-797">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1527160193503" expanded="true" signature="497:539" ph="/.../" />
-              <marker date="1527160193503" expanded="true" signature="569:595" ph="/.../" />
+              <marker date="1527166299893" expanded="true" signature="497:539" ph="/.../" />
+              <marker date="1527166299893" expanded="true" signature="569:595" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXHelpers/BXUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-cropper/src/main/java/com/brainx/imagecroplibrary/BXCrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
   </component>

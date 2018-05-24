@@ -1,6 +1,6 @@
 # BX-Image-Cropper-Android - Image Cropping Library for Android
 
-#### This project aims to provide an ultimate and flexible image cropping experience. Made in [BrainxTech](https://brainxtech.com/)
+#### This project aims to provide an ultimate and flexible image cropping experience. Made by [BrainxTech](https://brainxtech.com/)
 
 # Usage 
 1.Include the library
@@ -35,9 +35,6 @@ compile 'com.brainx.android:image-cropper:1.0'
 ```
 <activity android:name="com.brainx.piccroplibrary.BXActivity.BXCropActivity"
           android:theme="@style/BXTheme.NoActionBar"/>
-<activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-          android:screenOrientation="portrait"
-          android:theme="@style/Base.Theme.AppCompat" />
 ```
 you can customize the UI colors by override the BXTheme
 

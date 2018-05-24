@@ -12,9 +12,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.brainx.piccroplibrary.BXCrop;
-import com.brainx.piccroplibrary.BXHelpers.BXCropResult;
-import com.brainx.piccroplibrary.BXHelpers.BXPermissionManager;
+import com.brainx.imagecroplibrary.BXCrop;
+import com.brainx.imagecroplibrary.BXHelpers.BXCropResult;
 import com.brainx.piccroplibrarytest.Helpers.PermissionManager;
 import com.brainx.piccroplibrarytest.R;
 import com.squareup.picasso.Picasso;
@@ -24,6 +23,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
+    //region Properties
     private static final int REQUEST_STORAGE = 100;
     private static final int GALLERY_INTENT = 1222;
     private static final int CROP_REQUEST_CODE = 1478;
@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
     private Button selectImageView;
     private ImageView cropImageView;
 
+    //endregion
+
+    //region Lifecycle
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,15 +47,6 @@ public class MainActivity extends AppCompatActivity {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
-    private void setListener() {
-        selectImageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (storagePermission())
-                    openGallery();
-            }
-        });
-    }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -74,12 +68,32 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //endregion
+
+    //region Listener
+
+    private void setListener() {
+        selectImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (storagePermission())
+                    openGallery();
+            }
+        });
+    }
+
+    //endregion
+
+    //region initialization
 
     private void init() {
         selectImageView = findViewById(R.id.select_button);
         cropImageView = findViewById(R.id.crop_image_view);
     }
 
+    //endregion
+
+    //region Private Method
     private boolean storagePermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (PermissionManager.checkStoragePermission(this)) {
@@ -103,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
     private void cropImage(Uri uri) {
         Uri destinationUri = destinationUri();
         if (destinationUri != null) {
-            BXCrop.getInstance().initlization(this).setUri(uri, destinationUri()).withAspectRatio(1, 2).crop(CROP_REQUEST_CODE);
+            BXCrop.getInstance().initialization(this).setUri(uri, destinationUri()).withAspectRatio(1, 2).crop(CROP_REQUEST_CODE);
         }
     }
 
@@ -118,5 +132,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //endregion
 
 }
