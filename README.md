@@ -5,7 +5,7 @@
 # Usage 
 1.Include the library
 
-#####Using  Gradle
+##### Using  Gradle
 Add image-croppe to the dependencies block in your app level build.gradle:
 ```groovy
 compile 'com.brainx.android:image-cropper:1.0'
