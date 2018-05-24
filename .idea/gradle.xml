@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/piccroplibrary" />
+            <option value="$PROJECT_DIR$/image-cropper" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

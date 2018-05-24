@@ -1,11 +1,24 @@
 apply plugin: 'com.android.library'
 
-ext {
-    PUBLISH_GROUP_ID = 'com.brainx.android'
-    PUBLISH_ARTIFACT_ID = 'image-cropper'
-    PUBLISH_VERSION = '1.0'
-}
 
+
+ext {
+    bintrayRepo = 'BX-Image-Cropper-Android' // your repo name
+    bintrayName = "image-cropper" // has to be same as your library module name
+    publishedGroupId = 'com.brainx.android' // your module package name
+    libraryName = "image-cropper"
+    artifact = "image-cropper" // has to be same as your library module name
+    libraryDescription = 'image-cropper lib'
+    siteUrl = "https://github.com/BrainXtech/kustomer-android-internal"
+    gitUrl = "https://github.com/BrainXtech/kustomer-android-internal"
+    libraryVersion = "1.0"
+    developerId = "tahir456"
+    developerName = "tahir zahoor"
+    developerEmail = 'brainxdevelopers@gmail.com'
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 27
     defaultConfig {
@@ -45,4 +58,5 @@ dependencies {
     compile 'com.bogdwellers:pinchtozoom:0.1'
     compile 'com.squareup.picasso:picasso:2.5.2'
 }
-apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'
