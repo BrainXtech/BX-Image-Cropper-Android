@@ -2,23 +2,27 @@
 
 #### This project aims to provide an ultimate and flexible image cropping experience. Made in [BrainxTech](https://brainxtech.com/)
 
-# Usage
+# Usage 
 1.Include the library
 
-##### Using  Gradle
-
-```
+#####Using  Gradle
 Add image-croppe to the dependencies block in your app level build.gradle:
+```groovy
 compile 'com.brainx.android:image-cropper:1.0'
 ```
 
 ##### Using  Maven
-```
-<dependency> <groupId>com.brainx.android</groupId> <artifactId>image-cropper</artifactId> <version>1.0</version> <type>pom</type> </dependency>
+```gradle
+<dependency> 
+    <groupId>com.brainx.android</groupId> 
+    <artifactId>image-cropper</artifactId> 
+    <version>1.0</version> 
+    <type>pom</type> 
+</dependency>
 ```
 
 
- Add permissions to manifest
+ 2.Add permissions to manifest
 
 ```
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -26,27 +30,27 @@ compile 'com.brainx.android:image-cropper:1.0'
 
 ```
 
-2.Add Activity into your AndroidManifest.xml
+3.Add Activity into your AndroidManifest.xml
 
 ```
-<activity  android:name="com.brainx.piccroplibrary.BXActivity.BXCropActivity"
-            android:theme="@style/BXTheme.NoActionBar"/>
+<activity android:name="com.brainx.piccroplibrary.BXActivity.BXCropActivity"
+          android:theme="@style/BXTheme.NoActionBar"/>
 <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Base.Theme.AppCompat" />
+          android:screenOrientation="portrait"
+          android:theme="@style/Base.Theme.AppCompat" />
 ```
 
-3.The BXCrop configuration.
+4.The BXCrop configuration.
 
 ```
 BXCrop.getInstance()
     .initlization(this)
-    .setUri(ourceUri,destinationUri)
+    .setUri(sourceUri,destinationUri)
     .withAspectRatio(1, 2)
     .crop(CROP_REQUEST_CODE);
 ```
 
-4.Override `onActivityResult` method and handle BXCrop result.
+5.Override `onActivityResult` method and handle BXCropResult.
 
 ```
 @Override
@@ -63,32 +67,34 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 ```
 
 # Features
-
 ```
 1 Built-in BxCropActivity.
 2 Image rotation during cropping.
-3 Set  Aspect Ratio of Croped Image
+3 Set  Aspect Ratio of Croped Image 
 4 API Level 15.
-  More..
+   More..
 ```
 
 
 # Changelog
 
-## Version: 1.0
+#### Version: 1.0
 
 ```
-  Initial Build
+Initial Build
 ```
 
-## Let us know!
+### Let us know!
 
 ```
-We’d be really happy if you sent us links to your projects where you use our component. Just send an email to Library@brainxtech.com And do let us know if you have
-any questions or suggestion regarding the library.
+We’d be really happy if you sent us links to your 
+projects where you use our component. Just send an
+email to library@brainxtech.com And do let us know
+if you have any questions or suggestion regarding
+the library. 
 ```
 
-## License
+### License
 
     Copyright 2018, BrainxTech
 
