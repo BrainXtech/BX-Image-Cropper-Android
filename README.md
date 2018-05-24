@@ -5,13 +5,13 @@
 # Usage 
 1.Include the library
 
-##### Using  Gradle
+##### You can depend on the library through Gradle
 Add image-croppe to the dependencies block in your app level build.gradle:
 ```groovy
 compile 'com.brainx.android:image-cropper:1.0'
 ```
 
-##### Using  Maven
+##### Or through Maven
 ```gradle
 <dependency> 
     <groupId>com.brainx.android</groupId> 
@@ -39,6 +39,7 @@ compile 'com.brainx.android:image-cropper:1.0'
           android:screenOrientation="portrait"
           android:theme="@style/Base.Theme.AppCompat" />
 ```
+you can customize the UI colors by override the BXTheme
 
 4.The BXCrop configuration.
 
