@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/bx-image-cropper" />
+            <option value="$PROJECT_DIR$/brainx-image-cropper" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

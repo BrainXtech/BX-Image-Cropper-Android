@@ -8,15 +8,15 @@
 ##### You can depend on the library through Gradle
 Add image-croppe to the dependencies block in your app level build.gradle:
 ```groovy
-compile 'com.brainx.android:image-cropper:1.1'
+compile 'com.brainx.android:brainx-image-cropper:1.0'
 ```
 
 ##### Or through Maven
 ```gradle
 <dependency> 
     <groupId>com.brainx.android</groupId> 
-    <artifactId>image-cropper</artifactId> 
-    <version>1.1</version> 
+    <artifactId>brainx-image-cropper</artifactId> 
+    <version>1.0</version> 
     <type>pom</type> 
 </dependency>
 ```
@@ -33,7 +33,7 @@ compile 'com.brainx.android:image-cropper:1.1'
 3.Add Activity into your AndroidManifest.xml
 
 ```
-<activity android:name="com.brainx.piccroplibrary.BXActivity.BXCropActivity"
+<activity android:name="com.brainx.bxcroplibrary.BXActivity.BXCropActivity"
           android:theme="@style/BXTheme.NoActionBar"/>
 ```
 you can customize the UI colors by override the BXTheme
@@ -77,11 +77,6 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 # Changelog
 
 #### Version: 1.0
-
-```
-Initial Build
-```
-#### Version: 1.1
 
 ```
 Initial Build

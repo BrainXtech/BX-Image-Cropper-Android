@@ -12,8 +12,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.brainx.imagecroplibrary.BXCrop;
-import com.brainx.imagecroplibrary.BXHelpers.BXCropResult;
+import com.brainx.bxcroplibrary.BXCrop;
+import com.brainx.bxcroplibrary.BXHelpers.BXCropResult;
 import com.brainx.piccroplibrarytest.Helpers.PermissionManager;
 import com.brainx.piccroplibrarytest.R;
 import com.squareup.picasso.Picasso;
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Uri destinationUri() {
         if (PermissionManager.checkStoragePermission(this)) {
-            String root = Environment.getExternalStorageDirectory().toString() + "/BXBrop";
+            String root = Environment.getExternalStorageDirectory().toString() + "/BXCrop";
             String iName = new SimpleDateFormat("yyyyMMddHHmmss'.jpg'").format(new Date());
             return Uri.fromFile(new File(root, iName));
 
