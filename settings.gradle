@@ -1,1 +1,1 @@
-include ':app', ':image-cropper'
+include ':app', ':bx-image-cropper'

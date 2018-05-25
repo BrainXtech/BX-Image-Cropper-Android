@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BX-Image-Cropper-Android.iml" filepath="$PROJECT_DIR$/BX-Image-Cropper-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/image-cropper/image-cropper.iml" filepath="$PROJECT_DIR$/image-cropper/image-cropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bx-image-cropper/image-cropper.iml" filepath="$PROJECT_DIR$/bx-image-cropper/image-cropper.iml" />
       <module fileurl="file://$PROJECT_DIR$/image-cropper/piccroplibrary.iml" filepath="$PROJECT_DIR$/image-cropper/piccroplibrary.iml" />
     </modules>
   </component>
