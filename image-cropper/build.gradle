@@ -9,9 +9,9 @@ ext {
     libraryName = "image-cropper"
     artifact = "image-cropper" // has to be same as your library module name
     libraryDescription = 'image-cropper lib'
-    siteUrl = "https://github.com/BrainXtech/kustomer-android-internal"
-    gitUrl = "https://github.com/BrainXtech/kustomer-android-internal"
-    libraryVersion = "1.1"
+    siteUrl = "https://github.com/BrainXtech/BX-Image-Cropper-Android"
+    gitUrl = "https://github.com/BrainXtech/BX-Image-Cropper-Android"
+    libraryVersion = "1.0"
     developerId = "tahir456"
     developerName = "tahir zahoor"
     developerEmail = 'brainxdevelopers@gmail.com'
